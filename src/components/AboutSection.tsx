@@ -2,9 +2,9 @@ import Icon from "@/components/ui/icon";
 
 const stats = [
   { value: "15+", label: "лет опыта" },
-  { value: "5000+", label: "клиентов" },
+  { value: "2500+", label: "клиентов" },
   { value: "50+", label: "моделей принтеров" },
-  { value: "3 мес", label: "гарантия" },
+  { value: "1 мес", label: "гарантия" },
 ];
 
 const advantages = [
@@ -26,7 +26,7 @@ const advantages = [
   {
     icon: "ShieldCheck",
     title: "Гарантия на работы",
-    desc: "Даём гарантию 3 месяца на все виды работ. Используем только качественные расходные материалы.",
+    desc: "Даём гарантию 1 месяц на все виды работ. Используем только качественные расходные материалы.",
   },
   {
     icon: "Banknote",

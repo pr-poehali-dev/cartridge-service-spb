@@ -96,15 +96,26 @@ const RepairSection = () => (
         <p className="text-slate-300 mb-6 max-w-lg mx-auto">
           Опишите проблему — наш специалист бесплатно проконсультирует и назовёт стоимость ремонта
         </p>
-        <a
-          href="https://t.me/kartridzhspb"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 btn-gold"
-        >
-          <Icon name="MessageCircle" size={18} />
-          Написать в Telegram
-        </a>
+        <div className="flex flex-wrap justify-center gap-3">
+          <a
+            href="https://t.me/kartridzhspb"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 btn-gold"
+          >
+            <Icon name="Send" size={18} />
+            Написать в Telegram
+          </a>
+          <a
+            href="https://max.ru/kartridzhspb"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded font-semibold bg-[#0077FF] text-white hover:bg-[#005fcc] transition-colors font-golos"
+          >
+            <Icon name="MessageSquare" size={18} />
+            Написать в MAX
+          </a>
+        </div>
       </div>
     </div>
   </section>

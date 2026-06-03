@@ -49,9 +49,9 @@ const Footer = () => {
           <div>
             <h4 className="font-bold font-golos mb-4 text-amber-400">Связаться с нами</h4>
             <div className="space-y-3">
-              <a href="tel:+78121234567" className="flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors">
+              <a href="tel:+79650224299" className="flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors">
                 <Icon name="Phone" size={14} className="text-amber-400" />
-                +7 (812) 123-45-67
+                +7 (965) 022-42-99
               </a>
               <a href="https://t.me/kartridzhspb" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors">
                 <Icon name="Send" size={14} className="text-amber-400" />

@@ -147,10 +147,10 @@ const ContactSection = () => {
               </h3>
               <div className="space-y-4">
                 {[
-                  { icon: "Phone", label: "Телефон", value: "+7 (812) 123-45-67", href: "tel:+78121234567" },
+                  { icon: "Phone", label: "Телефон", value: "+7 (965) 022-42-99", href: "tel:+79650224299" },
                   { icon: "MessageCircle", label: "Telegram", value: "@kartridzhspb", href: "https://t.me/kartridzhspb" },
                   { icon: "Mail", label: "Email", value: "info@kartridzh-spb.ru", href: "mailto:info@kartridzh-spb.ru" },
-                  { icon: "MapPin", label: "Адрес офиса", value: "СПб, ул. Примерная, д. 1", href: null },
+                  { icon: "MapPin", label: "Адрес офиса", value: "Мурино, Оборонная д. 2 корп. 3", href: null },
                   { icon: "Clock", label: "Режим работы", value: "Пн–Пт: 9:00–19:00, Сб: 10:00–16:00", href: null },
                 ].map((c) => (
                   <div key={c.label} className="flex items-start gap-3">
@@ -194,13 +194,13 @@ const ContactSection = () => {
                 Написать в Telegram
               </a>
               <a
-                href="https://wa.me/78121234567"
+                href="https://max.ru/kartridzhspb"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 flex items-center justify-center gap-2 py-3 rounded-lg font-semibold text-sm transition-colors bg-[#25D366] text-white hover:bg-[#1db855]"
+                className="flex-1 flex items-center justify-center gap-2 py-3 rounded-lg font-semibold text-sm transition-colors bg-[#0077FF] text-white hover:bg-[#005fcc]"
               >
-                <Icon name="MessageCircle" size={18} />
-                WhatsApp
+                <Icon name="MessageSquare" size={18} />
+                Написать в MAX
               </a>
             </div>
           </div>

@@ -44,9 +44,9 @@ const Header = () => {
           </nav>
 
           <div className="hidden lg:flex items-center gap-3">
-            <a href="tel:+78121234567" className="flex items-center gap-2 text-white hover:text-amber-400 transition-colors">
+            <a href="tel:+79650224299" className="flex items-center gap-2 text-white hover:text-amber-400 transition-colors">
               <Icon name="Phone" size={16} className="text-amber-400" />
-              <span className="font-semibold text-sm">+7 (812) 123-45-67</span>
+              <span className="font-semibold text-sm">+7 (965) 022-42-99</span>
             </a>
             <button
               onClick={() => scrollTo("contacts")}
@@ -78,9 +78,9 @@ const Header = () => {
               </button>
             ))}
           </nav>
-          <a href="tel:+78121234567" className="flex items-center gap-2 text-white py-2">
+          <a href="tel:+79650224299" className="flex items-center gap-2 text-white py-2">
             <Icon name="Phone" size={16} className="text-amber-400" />
-            <span className="font-semibold">+7 (812) 123-45-67</span>
+            <span className="font-semibold">+7 (965) 022-42-99</span>
           </a>
           <button
             onClick={() => scrollTo("contacts")}

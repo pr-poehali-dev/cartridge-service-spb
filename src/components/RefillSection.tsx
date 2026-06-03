@@ -69,7 +69,7 @@ const RefillSection = () => (
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {[
-            { icon: "Droplets", title: "Струйные картриджи", desc: "Epson, Canon, HP — все цвета и форматы" },
+            { icon: "Droplets", title: "Струйные картриджи", desc: "Epson — все цвета и форматы" },
             { icon: "Layers", title: "Лазерные картриджи", desc: "Черно-белые и цветные, любого объёма" },
             { icon: "RefreshCw", title: "Перезаправка", desc: "Многократная заправка с промывкой головки" },
           ].map((item) => (

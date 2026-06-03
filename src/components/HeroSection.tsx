@@ -44,7 +44,7 @@ const HeroSection = () => {
           <div className="flex flex-wrap gap-6">
             {[
               { icon: "Clock", text: "Выезд за 2 часа" },
-              { icon: "Shield", text: "Гарантия 3 месяца" },
+              { icon: "Shield", text: "Гарантия 1 месяц" },
               { icon: "MapPin", text: "Весь СПб и ЛО" },
               { icon: "Wrench", text: "Заправка на месте" },
             ].map((item) => (
