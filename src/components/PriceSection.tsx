@@ -18,8 +18,6 @@ const priceData = [
     category: "Заправка струйных картриджей",
     items: [
       { name: "Epson (все серии)", model: "Epson", price: "200–400 ₽" },
-      { name: "HP DeskJet / OfficeJet", model: "HP", price: "200–350 ₽" },
-      { name: "Canon PIXMA", model: "Canon", price: "200–350 ₽" },
       { name: "Epson с СНПЧ — заправка системы", model: "Epson", price: "300–600 ₽" },
     ],
   },
